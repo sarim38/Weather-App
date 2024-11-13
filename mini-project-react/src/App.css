@@ -1,0 +1,33 @@
+/* App.css or InfoBox.css */
+body {
+  background-image: url('https://media.istockphoto.com/id/1323823418/photo/low-angle-view-thermometer-on-blue-sky-with-sun-shining.webp?a=1&b=1&s=612x612&w=0&k=20&c=JfCdjP7brx9oUlLT6TIx9OTtEgvEGNpxDcDFqEz0Fo0=');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: navy; /* Makes all text navy blue by default */
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.InfoBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Centers content vertically */
+}
+
+.card-container {
+  background: rgba(255, 255, 255, 0.8); /* Light background for readability */
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.weather-card {
+  color: navy; /* Ensures text inside the card is navy */
+}
+
+.weather-image {
+  height: 200px;
+}

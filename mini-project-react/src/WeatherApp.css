@@ -1,0 +1,18 @@
+.weather-app {
+    text-align: center;
+    padding: 20px;
+    background-image: url('./assets/img1.webp');
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+.weather-app h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #ffffff;
+}

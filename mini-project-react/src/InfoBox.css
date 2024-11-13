@@ -1,0 +1,27 @@
+.InfoBox {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 340px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    transition: transform 0.2s;
+}
+
+.weather-card {
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.weather-card:hover {
+    transform: scale(1.05);
+}
+
+.weather-image {
+    height: 140px;
+}
